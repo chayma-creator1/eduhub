@@ -1,0 +1,77 @@
+
+.body{
+    background-color:#f8f9fa;
+}
+.ingenieure  {
+    background-color:white;
+    margin: 50px;
+    border-radius: 50px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    
+    
+}
+.med{
+   background-color:white;
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.container {
+       display: flex;
+    flex-direction: row;      /* Force l'alignement horizontal */
+    align-items: flex-start;  /* Aligne le haut de l'image avec le haut du texte */
+    gap: 30px;                /* Espace entre la photo et le texte */
+    padding: 20px;
+    border: 1px  #ddd;
+   
+    }
+
+
+    .img {
+        width: 150px;
+        height: auto;
+        flex-shrink: 0; /* Empêche l'image de s'écraser si le texte est long */
+    }
+
+    .description {
+        margin: 0; /* Enlève les marges par défaut du paragraphe */
+        line-height: 1.6; /* Améliore l'espacement entre les lignes */
+        font-family: sans-serif;
+    }
+.texte-conteneur{
+    flex: 1;
+}
+.a{
+    background-color: rgb(28, 31, 115);
+    width: 100%;
+}
+.nav-link{
+  color: rgb(247, 251, 255) !important;
+  
+}
+.nav-link:hover{
+    color: rgb(255, 244, 93) !important;
+    text-align: center;
+}
+.mail{
+    color: crimson;
+}
+.card-ecole {
+    transition: all 0.4s ease-in-out; /* Animation de transition */
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Effet 3D de base */
+}
+
+.card-ecole:hover {
+    transform: translateY(-5px); /* Élévation au survol */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2); /* Ombre plus forte */
+}
+
+.img {
+    max-width: 150px;
+    border-radius: 10px;
+}

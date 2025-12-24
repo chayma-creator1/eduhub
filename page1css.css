@@ -1,0 +1,199 @@
+.a{
+    background-color: rgb(28, 31, 115);
+    width: 100%;
+}
+
+.nav-link{
+   color: rgb(254, 254, 254);
+}
+.nav-link:hover{
+    color: rgb(255, 244, 93);
+    text-align: center;
+}
+.imageb{
+    /*background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3508.jpg?semt=ais_hybrid&w=740&q=80");*/
+    background-attachment: fixed;
+    background-size:cover; 
+    background:linear-gradient(rgba(250, 250, 255, 0.763), rgba(45, 120, 200, 0.4));
+}
+
+.logo{
+   
+    height: 70px;         
+    width: auto;        
+    display: block;
+
+}
+.imageprincipale{
+    max-width: 800px;       
+    padding: 20px;
+
+}
+.imageprincipale h1{
+    font-size: 2.5rem;         
+    margin-bottom: 30px;       
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+.section1{
+    
+    border-radius: 100px;
+    width: 90%;
+    max-width:1900px;
+    margin: 20px auto;
+    height: 80vh;
+    background-image: linear-gradient(rgba(6, 0, 128, 0.763), rgba(45, 120, 200, 0.4)), 
+                      url('https://www.koolskools.com/static/media/background.855c6420.png');
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;       
+    justify-content: center;    
+    text-align: center;       
+    color: white;         
+    position: relative;
+
+}
+.image-ordinateur {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-ordinateur img {
+    max-width: 270%; 
+    height: auto;
+    filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.2)); 
+}
+.btn{
+    background-color: #bed9f6fd;
+    border-radius: 50px ;
+    padding: 20px 50px ;
+    border-style: dotted;
+    z-index: 999;
+    position: relative; /* Obligatoire pour que le z-index fonctionne */
+    z-index: 999;       /* Place le bouton tout en haut de la pile */
+    cursor: pointer;
+    font-size: x-large;
+    
+    
+}
+.btn:hover{
+background-color: rgba(137, 43, 226, 0.251);
+transform: scale(1.5);
+}
+
+.qui_somme_nous {
+   
+   
+    
+   background-image: linear-gradient(rgba(6, 0, 128, 0.763), rgba(45, 120, 200, 0.4)), 
+                      url('https://www.koolskools.com/static/media/background.855c6420.png');
+    
+    padding: 50px;
+   border-radius: 100px;
+    width: 90%;
+    max-width:1900px;
+    margin: 20px auto;
+    height: 80vh;
+}
+.contenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.contenu h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size:80px;
+}
+.contenu p{
+    font-size: 1.8rem;
+    color: #d8f2f8;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenu ul{
+    list-style-type: circle;
+    font-size: 1.3rem;
+    color: #eaf8fb;
+}
+.lampe{
+    border-radius: 50%;
+}
+.descriptio .imgbody{
+    flex: 1;
+}
+.imgbody{
+   border-radius: 50px;
+}
+.stats-container {
+    background-color: #f7f7f77a; /* Gris très clair pour contraster avec le blanc */
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.stat-card {
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px); /* Petit effet de lévitation au survol */
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.stat-number {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #0d6efd; /* Le bleu de Bootstrap */
+    margin: 0;
+}
+
+.stat-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer {
+    background-color: #172f75; /* La couleur turquoise */
+    color: white;
+    padding: 40px 5%;
+    font-family: Arial, sans-serif;
+}
+.foot {
+    display: flex; 
+    justify-content: space-between; /* Espace les 3 blocs au maximum */
+    align-items: flex-start;
+}
+.premiere, .deuxieme, .troisieme {
+    width: 30%; 
+}
+
+.deuxieme img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Rend l'image ronde */
+    margin: 5px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact-item img {
+    width: 30px;
+    margin-right: 15px;
+}
+.icones-special img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%; /* Si tu veux qu'elles soient rondes */
+}

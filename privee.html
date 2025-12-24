@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> secteur privee</title>
+        <link rel="stylesheet" href="page2.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body class="body">
+<header class="a sticky-top">
+      
+   <ul class="nav nav-tabs nav-justified" class="navarbar">
+  <li class="nav-item">
+    <a class="nav-link"  href="index.html">Acceuil</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="privee.html">Prive</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="public.html">Public</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link">concours et calendrier</a>
+  </li>
+  <li>
+     <a class="nav-link" href="#">bourse et financement</a>
+  </li>
+</ul>
+</header>
+<div class="container my-4">
+    <label for="filterSpecialty" class="form-label">Filtrer par spécialité :</label>
+    <select id="filterSpecialty" class="form-select w-50" onchange="filtrerEcoles()">
+        <option value="tous">Toutes les spécialités</option>
+        <option value="ingenierie">Ingénierie</option>
+        <option value="business">Business & Management</option>
+        <option value="sante">Santé</option>
+        <option value="sante">architecture</option>
+    </select>
+   
+</div>
+<section class="ingenieure card-ecole" data-specialite="ingenierie">
+    <div class="container">
+        <a href="https://emsi.ma" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/fr/4/4a/Emsi_logo.jpg" class="img"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                    École Marocaine des Sciences de l'Ingénieur
+                </strong>
+                L'EMSI est la première école d'ingénierie privée au Maroc (fondée en 1986) et membre du réseau Honoris United Universities. 
+                Reconnue par l'État, elle forme des ingénieurs en 5 ans dans les secteurs de la technologie et de l'industrie.
+                <br><br>
+                <div class="info">
+                <strong>Contact :</strong><br>
+                <strong>Fès :</strong> 05359-75555<br>
+                <strong class="mail">Email : admission.fes@emsi.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="ingenieure card-ecole" data-specialite="ingenierie">
+    <div class="container">
+        <a href="https://my.um6p.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdvibGkDKFcNLVkk_XyHPIJ4dvr_KVo2VLFw&s" class="img"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                    L'Université Mohammed VI Polytechnique (UM6P)
+                </strong>
+               UM6P est une institution d'excellence orientée vers la recherche appliquée, l'innovation et l'entrepreneuriat. Inaugurée en 2017, elle se positionne comme un hub de savoir pour relever les défis de développement durable en Afrique, notamment dans les domaines de l'agriculture, de l'industrie minière et des énergies renouvelables.
+                <div class="info">
+                <strong>Contact :</strong><br>
+                <strong>Admission </strong>  +212 6 62 32 49 83<br>
+                <strong class="mail">Email :contact@um6p.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="ingenieure card-ecole" data-specialite="ingenierie business sante architecture">
+    <div class="container">
+        <a href="www.uir.ac.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6CtVvOmFc4tSRmX-Gq7gXojh3fxU0WVZdBQ&s" class="img"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                   L'Université Internationale de Rabat (UIR) 
+                </strong>
+              UIR est un modèle d'université innovant, créé en 2010 dans le cadre d'un partenariat public-privé avec l'État marocain. Elle propose des formations pluridisciplinaires (ingénierie, business, droit, santé, architecture) avec une forte dimension internationale et de nombreux programmes de doubles diplômes. Reconnue par l'État, ses diplômes sont équivalents aux diplômes nationaux. 
+                <div class="info">
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong> +212 (0) 5 30 11 20 22.<br>
+                <strong class="mail">Email :contact@uir.ac.ma.</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="ingenieure card-ecole" data-specialite="ingenierie business sante">
+    <div class="container">
+        <a href=" www.mundiapolis.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-_gyp5-KG4hjdU_G7or6diEy6g60XZgzOcw&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                  L'Université Mundiapolis de Casablanca
+                </strong>
+              créée en 1996, est une institution privée pionnière au Maroc et membre fondateur du réseau Honoris United Universities. Située au cœur de la zone franche Midparc, elle propose des formations reconnues par l'État en ingénierie, business, droit, sciences politiques et santé, avec un fort accent sur l'employabilité et l'accompagnement personnalisé des étudiants.
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong> +212 (0) 5 22 53 53 00<br>
+                <strong class="mail">Email :contact@mundiapolis.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="sante">
+    <div class="container">
+        <a href="https://fm6ss.ma/fr/um6ss" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaviCe3lqTjXxcVgELde9OOrPMMVbCS-Ssaw&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                 L'Université Mohammed VI des Sciences et de la Santé (UM6SS)
+                </strong>
+              UM6SS est une institution d'excellence à but non lucratif, relevant de la Fondation Mohammed VI des Sciences et de la Santé. Elle forme des professionnels de santé via ses facultés de médecine (française et anglophone), pharmacie, médecine dentaire, sciences infirmières et génie biomédical. Elle dispose de campus à Casablanca, Rabat et Dakhla.<br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 29 08 91 02<br>
+                <strong class="mail">Email :fm6m.casa@um6ss.ma.</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="sante">
+    <div class="container">
+        <a href="https://www.uiass.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusA3bTIIuS6hGh68pNrEEInf6ISKnbKrJhw&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                L'Université Internationale Abulcasis des Sciences de la Santé (UIASS)
+                </strong>
+              UIASS est une institution semi-publique de référence à Rabat, créée par la Fondation Cheikh Zaïd en partenariat avec le Ministère de l'Enseignement Supérieur. Elle est spécialisée dans les sciences de la santé et propose des cursus d'excellence en médecine, pharmacie, médecine dentaire ainsi que des formations en sciences infirmières et maintenance biomédicale. <br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 37 68 88 53.<br>
+                <strong class="mail">Email :contact@uiass.ma.</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="ingenierie business sante architecture">
+    <div class="container">
+        <a href="https://uic.ac.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSam04NYGyjP5f7JzROvRcUCPIZWIMhwsbI8A&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                L'Université Internationale de Casablanca (UIC)
+                </strong>
+              UIC est un établissement privé pluridisciplinaire reconnu par l'État, fondé en 2010. Elle fait partie du réseau Honoris United Universities et propose des formations dans des pôles d'excellence tels que la santé (médecine, pharmacie, dentaire), l'ingénierie, le droit, l'architecture et le management. Elle dispose d'un campus principal éco-responsable à Bouskoura (Casa Green Town) et d'un campus urbain à la Marina de Casablanca. <br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 22 36 76 88.<br>
+                <strong class="mail">Email :admissions@uic.ac.ma.</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="ingenierie business sante">
+    <div class="container">
+        <a href="www.upm.ac.ma" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LOGO_UPM_-_UNIVERSITE_PRIVEE_DE_MARRAKECH.jpg" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+               L'Université Privée de Marrakech (UPM)
+                </strong>
+              L'Université Privée de Marrakech (UPM) est un établissement pluridisciplinaire de premier plan, reconnu par l'État et membre du réseau Honoris United Universities. Elle propose des formations allant du Bac+3 au Doctorat dans 7 pôles d’expertise : Santé, Business, Ingénierie, Hôtellerie, Digital, Sport et Médias. Son campus de 32 hectares à Marrakech est l'un des plus modernes d'Afrique. <br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 24 48 70 00<br>
+                <strong class="mail">Email : contact@upm.ac.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="sante">
+    <div class="container">
+        <a href=" www.upssa.ac.ma." target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNnXKuq3KhSMaQQk_iAC1ZQAa9rtV0W3Y0og&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+               L'Université Privée de la Santé et des Sciences d'Agadir (UPSSA)
+                </strong>
+              L'Université Privée de la Santé et des Sciences d'Agadir (UPSSA) est un établissement d'enseignement supérieur spécialisé dans le domaine médical et paramédical. Elle forme des professionnels de santé à travers ses facultés de médecine, pharmacie, médecine dentaire, et ses filières en sciences infirmières et techniques de santé. L'université dispose d'un campus moderne avec des infrastructures de pointe pour favoriser l'apprentissage pratique. <br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 28 25 36 36.<br>
+                <strong class="mail">Email :contact@upssa.ac.ma.</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="ingenierie business sante architecture">
+    <div class="container">
+        <a href=" www.ueuromed.org" target="_blank"><img src="https://universitic.ueuromed.org/konosys/LoginCSS/1/img/logo.png" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                L'Université Euromed de Fès (UEMF)
+                </strong>
+              L'Université Euromed de Fès (UEMF) est une institution d'excellence à but non lucratif, labellisée par l'Union pour la Méditerranée (UpM) et placée sous la Haute Présidence de Sa Majesté le Roi Mohammed VI. Située à Fès, elle se distingue par son caractère multiculturel et ses programmes de recherche de pointe en intelligence artificielle, énergies renouvelables et nanotechnologies<br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 37 37 84 00<br>
+                <strong class="mail">Email :ccontact@ueuromed.org </strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="architecture">
+    <div class="container">
+        <a href=" www.ueuromed.org" target="_blank"><img src="https://chantiersdumaroc.ma/wp-content/uploads/2017/04/Logo-EAC-casablanca.jpg" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+               L'École d'Architecture de Casablanca (EAC)
+                </strong>
+             L'École d'Architecture de Casablanca (EAC), fondée en 2004, est la première institution privée d'enseignement de l'architecture au Maroc reconnue par l'État. Elle forme des architectes et des architectes-paysagistes capables de répondre aux enjeux urbains et environnementaux contemporains. Ses diplômes permettent l'inscription à l'Ordre National des Architectes.<br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 22 26 27 26<br>
+                <strong class="mail">Email :contact@eac.ma </strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="ingenierie business sante">
+    <div class="container">
+        <a href="www.upf.ac.ma" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZwPVpFORr64qpVLS2y1xQMhvRuQVl29ZUA&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                L'Université Privée de Fès (UPF)
+                </strong>
+             L'Université Privée de Fès (UPF), créée en 2006, est un établissement d'enseignement supérieur reconnu par l'État. Elle propose des cursus diversifiés organisés autour de pôles majeurs : une École d'Ingénieurs, une Business School, un Institut des Sciences de la Santé et une Faculté des Sciences Juridiques et Sociales. L'université met l'accent sur l'employabilité et l'innovation technologique.<br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 35 60 41 41<br>
+                <strong class="mail">Email :contact@upf.ac.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="med card-ecole" data-specialite="ingenierie business">
+    <div class="container">
+        <a href="https://aui.ma/fr/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJkeNyKQFfXz01dJvV4Nw0PelMAr8vHDaFg&s" class="img" style="max-width: 500px;"></a>
+        <div class="texte-conteneur">
+            <p class="description">
+                <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">
+                L'Université Al Akhawayn (AUI)
+                </strong>
+             L'Université Al Akhawayn (AUI), inaugurée en 1995 par le Roi Hassan II et le Prince Abdallah d'Arabie Saoudite, est l'unique université publique marocaine à gestion autonome basée sur le modèle éducatif américain (Liberal Arts). Située dans le cadre exceptionnel d'Ifrane, elle est la seule université en Afrique à bénéficier de la prestigieuse accréditation américaine NECHE. <br>
+                <strong>Contact :</strong><br>
+                <strong>Direction Scolarité</strong>+212 (0) 5 35 86 20 00<br>
+                <strong class="mail">Email :admissions@aui.ma</strong>
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<script>
+    function filtrerEcoles() {
+    const choix = document.getElementById("filterSpecialty").value;
+    const ecoles = document.querySelectorAll(".card-ecole");
+
+    ecoles.forEach(ecole => {
+        const specialites = ecole.getAttribute("data-specialite") || "";
+        
+       
+        if (choix === "tous" || specialites.includes(choix)) {
+            ecole.style.display = "block";
+        } else {
+            ecole.style.display = "none";
+        }
+    });
+}
+</script>
+
+    </body>
+</html>

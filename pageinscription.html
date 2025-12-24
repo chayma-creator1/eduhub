@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>EduHUB - Inscription </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .light{
+            background-color: #d6e0fc;
+            color: black;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(31, 36, 132, 0.826);
+        }
+        .btn-gradient {
+            background: linear-gradient(135deg, #7c3aed, #4f46e5);
+            color: white;
+            border: none;
+        }
+        .btn-gradient:hover {
+            color: white;
+            filter: brightness(1.1);
+        }
+        .dark{
+            background-color: black;
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body class="light">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card p-4">
+                <h2 class="text-center mb-4 fw-bold">Veuillez saisir vos données</h2>
+                
+                <form id="registrationForm">
+                    <div class="row g-3 mb-3">
+                        <div class="col">
+                            <label class="form-label">Nom</label>
+                            <input type="text" id="n" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Prénom</label>
+                            <input type="text" id="p" class="form-control" placeholder="Prénom">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3">
+                        <div class="col-4">
+                            <label class="form-label">Âge</label>
+                            <input type="number" id="ag" class="form-control">
+                        </div>
+                        <div class="col-8">
+                            <label class="form-label">Ville</label>
+                            <select id="liste" class="form-select">
+                                <option value="fes">Fès</option>
+                                <option value="tanger">Tanger</option>
+                                <option value="rabat">Rabat</option>
+                                <option value="casablanca">Casablanca</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label d-block">Sexe</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="sexe" id="sexeM" value="M">
+                            <label class="form-check-label" for="sexeM">Homme</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="sexe" id="sexeF" value="F">
+                            <label class="form-check-label" for="sexeF">Femme</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="nom@exemple.com">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control">
+                    </div>
+
+                    <button type="button" onclick="affiche()" class="btn btn-gradient w-100 py-2 fw-bold shadow-sm" id="bt">
+                        S'inscrire
+                    </button>
+                </form>
+
+                <div class="text-center mt-4">
+                    <a href="index.html" class="text-decoration-none text-muted small">
+                        ← Retour à l'accueil
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function affiche(){
+        const body=document.body;
+        const nom = document.getElementById("n").value;
+        const prenom = document.getElementById("p").value;
+        if(nom && prenom) {
+            alert(`Bienvenue sur EduHUB : ${nom} ${prenom}`);
+        } else {
+            alert("Veuillez remplir votre nom et prénom.");
+        }
+        body.classList.toggle('light');
+        body.classList.toggle('dark');
+
+
+    }
+</script>
+
+</body>
+</html>

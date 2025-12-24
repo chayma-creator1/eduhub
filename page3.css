@@ -1,0 +1,12 @@
+.a{
+    background-color: rgb(206, 208, 255);
+    width: 100%;
+    
+}
+.nav-link{
+    color: rgb(75, 42, 165);
+}
+.nav-link:hover{
+    color: rgb(255, 244, 93);
+    text-align: center;
+}
