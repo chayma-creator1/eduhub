@@ -1,6 +1,7 @@
 .a{
     background-color: rgb(206, 208, 255);
     width: 100%;
+    position: relative;
     
 }
 .nav-link{
@@ -9,4 +10,25 @@
 .nav-link:hover{
     color: rgb(255, 244, 93);
     text-align: center;
+}
+.body{
+    
+}
+.dark-mode{
+    background-size:cover; 
+    background-color: #000000;
+}
+#btou{
+    position: fixed;
+    height: 90px;
+    width:90px;
+    border-radius: 100%;
+   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/1200px-Yin_yang.svg.png');
+    color: rgb(255, 255, 255);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+   left:0%
 }
