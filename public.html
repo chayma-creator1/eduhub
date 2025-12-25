@@ -7,7 +7,7 @@
     </head>
     <body class="body">
         <header class="a sticky-top">
-      
+       <button onclick="mode()" id="btou"></button>
    <ul class="nav nav-tabs nav-justified" class="navarbar">
   <li class="nav-item">
     <a class="nav-link "  href="index.html">Acceuil</a>
@@ -26,6 +26,13 @@
   </li>
 </ul>
 </header>
+<script>
+    function mode(){
+        const body=document.body;
+        body.classList.toggle('body');
+        body.classList.toggle('dark-mode');
+    }
+</script>
 <div class="container my-4">
     <label for="filterSpecialty" class="form-label">Filtrer par spécialité :</label>
     <select id="filterSpecialty" class="form-select w-50" onchange="filtrerEcoles()">
