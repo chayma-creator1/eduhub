@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="page1css.css">
 </head>
 <body class="imageb">
+    
 <header class="a sticky-top">
-      
+     <button onclick="mode()" id="btou"></button>
    <ul class="nav nav-tabs nav-justified" class="navarbar">
+    
   <li class="nav-item">
     <a class="nav-link "  href="#">Acceuil</a>
   </li>
@@ -20,18 +22,18 @@
     <a class="nav-link" href="public.html">Public</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link ">concours et calendrier</a>
+    <a class="nav-link " href="https://www.dates-concours.ma" target="_blank">concours et calendrier</a>
   </li>
   <li>
-     <a class="nav-link" href="#">bourse et financement</a>
+     <a class="nav-link" href="https://www.bourses-etudiants.ma/liste-des-bourses-par-pays/liste-des-bourses-au-maroc/"target="_blank">bourse et financement</a>
   </li>
 </ul>
 </header>
-    <div class="video">
+<div class="video">
     <iframe 
         src="https://www.youtube.com/embed/iA8e7BvD5Hw?si=Ro7bVF4JJnaRG9Vv"
         frameborder="0" 
-        allow="autoplay; encrypted-media" 
+        allow="autoplay;" 
         allowfullscreen>
     </iframe>
 </div>
@@ -41,6 +43,13 @@
   <input type="text" id="userQuestion" class="form-control" placeholder="saisissez votre question ?">
   <button class="btn btn-primary" onclick="repondre()">Poser la question</button>
 </div>
+<script>
+    function mode(){
+        const body=document.body;
+        body.classList.toggle('imageb');
+        body.classList.toggle('dark-mode');
+    }
+</script>
 <script>
     function repondre() {
    
@@ -61,6 +70,14 @@
     window.open("https://www.google.com/search?q=" + encodeURIComponent(question), "_blank");
 }
 </script>
+<div class="news-container">
+    <div class="news-label">News</div>
+    <div class="news-scroll">
+   
+            <pre>🟢Ouverture du concours 2025-2026      🟢Planning des examens de la session d'automne       🟢Inscriptions ouvertes pour EduHub...</pre>
+        
+    </div>
+</div>
 <section class="section1">
 <div class="imageprincipale" >
    
@@ -101,7 +118,7 @@
     </div>
 </section>
 
-<section class="stats-container py-5">
+<section class="stats-container py-5" >
     <div class="container">
         <div class="row text-center">
             
@@ -137,6 +154,45 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</section>
+<section class="testimonials py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Ce que disent nos utilisateurs</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p class="testimonial-text">EduHub m'a permis de trouver mon master en un temps record. Les dates de concours sont toujours à jour !</p>
+                    <div class="testimonial-author">
+                        <strong>Ahmed R.</strong>
+                        <span>Étudiant à l'UM5</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p class="testimonial-text">Une plateforme indispensable pour l'orientation au Maroc. Je la recommande à tous mes élèves.</p>
+                    <div class="testimonial-author">
+                        <strong>Pr. Lalami</strong>
+                        <span>Enseignant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p class="testimonial-text">Design intuitif et informations précises. Le mode sombre est un vrai plus pour réviser tard !</p>
+                    <div class="testimonial-author">
+                        <strong>Sara M.</strong>
+                        <span>Future bachelière</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
